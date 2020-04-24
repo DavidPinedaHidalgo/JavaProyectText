@@ -48,16 +48,16 @@ public class Movil {
 		return DatosMovilesTotales;
 	}
 
-	public void setDatosMovilesTotales(int datosMovilesTotales) {
-		DatosMovilesTotales = datosMovilesTotales;
+	public void setDatosMovilesTotales(double d) {
+		DatosMovilesTotales = d;
 	}
 
 	public double getDatosMovilesGastados() {
 		return DatosMovilesGastados;
 	}
 
-	public void setDatosMovilesGastados(int datosMovilesGastados) {
-		DatosMovilesGastados = datosMovilesGastados;
+	public void setDatosMovilesGastados(double d) {
+		DatosMovilesGastados = d;
 	}
 
 	@Override

@@ -9,7 +9,15 @@ public class operacionesMovil {
 		return datosActuales;
 	}
 	
-	public static void hacerLlamada(int numero) {
-		System.out.println("Se esta llamando al número: "+numero);
+	public static void hacerLlamada(Movil m1, Movil m2) {
+		int haceLlamada=m1.getNumero();
+		int recibeLlamada=m2.getNumero();
+		System.out.println("El movil "+haceLlamada+ " está llamando a "+recibeLlamada);
+	}
+	
+	public static double aumentarDatos(Movil movil, double cantidad) {
+		double datos=(movil.getDatosMovilesTotales()+cantidad);
+		movil.setDatosMovilesTotales(datos);
+		return datos;
 	}
 }
